@@ -3,8 +3,6 @@ package areeb.udacity.project0;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
@@ -13,8 +11,8 @@ import java.util.Arrays;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     private static final String TAG = "App Portfolio";
-    private static final int[]    ids    = {R.id.spotify, R.id.scores, R.id.library, R.id.build, R.id.xyz, R.id.capstone};
-    private static final String[] toasts = {"Spotify Streamer", "Super Duo : Football Scores",
+    private static final Integer[] ids    = {R.id.spotify, R.id.scores, R.id.library, R.id.build, R.id.xyz, R.id.capstone};
+    private static final String[]  toasts = {"Spotify Streamer", "Super Duo : Football Scores",
                                             "Super Duo : Library", "Build it Bigger", "XYZ Reader", "Capstone"};
 
     @Override
