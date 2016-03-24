@@ -13,7 +13,51 @@
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="@dimen/txt_margin"
             android:text="@string/intro"
             android:id="@+id/textView"
             android:textSize="@dimen/text_intro"/>
+
+    <Button
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/btn_margin"
+            android:text="@string/btn_spotify"
+            android:id="@+id/spotify"
+            android:theme="@style/ButtonNormal"/>
+
+    <Button
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_scores"
+            android:id="@+id/scores"
+            android:theme="@style/ButtonNormal"/>
+
+    <Button
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_library"
+            android:id="@+id/library"
+            android:theme="@style/ButtonNormal"/>
+
+    <Button
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_build_it_bigger"
+            android:id="@+id/build"
+            android:theme="@style/ButtonNormal"/>
+
+    <Button
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_xyz_reader"
+            android:id="@+id/xyz"
+            android:theme="@style/ButtonNormal"/>
+
+    <Button
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_capstone"
+            android:id="@+id/capstone"
+            android:theme="@style/ButtonTop"/>
 </LinearLayout>

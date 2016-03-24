@@ -4,5 +4,6 @@
     <color name="color_primary">#00bcd4</color>
     <color name="color_primary_dark">#006064</color>
     <color name="color_accent">#f44336</color>
-    <color name="color_btn_normal">#42a5f5</color>
+    <color name="color_btn_normal">#64B5F6</color>
+    <color name="color_btn_top">#EF5350</color>
 </resources>
